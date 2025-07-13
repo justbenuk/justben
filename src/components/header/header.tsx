@@ -18,7 +18,7 @@ export default function Header() {
           <div>
             <Link
               href={"/contact"}
-              className="bg-yellow-200 px-6 py-2 rounded-lg flex flex-row space-x-4 items-center"
+              className="bg-yellow-200 px-6 py-2 rounded-lg hidden lg:flex flex-row space-x-4 items-center"
             >
               <FaSmile />
               <span>Lets Talk</span>

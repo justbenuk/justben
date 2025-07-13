@@ -4,9 +4,9 @@ import { FaSmile } from "react-icons/fa";
 
 export default function CallToAction() {
   return (
-    <div className="py-34">
+    <div className="py-12 lg:py-34">
       <div className="bg-white rounded-xl py-24 flex flex-col items-center justify-center">
-        <h1 className="w-1/3 mx-auto text-center text-6xl">
+        <h1 className="w-2/3 md:w-2/4 mx-auto text-center text-3xl md:text-5xl lg:text-6xl">
           Want to start a project?
         </h1>
         <Link

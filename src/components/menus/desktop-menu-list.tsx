@@ -4,7 +4,7 @@ import DesktopMenuItem from "./desktop-menu-item";
 
 export default function DesktopMenuList() {
   return (
-    <nav className="flex flex-row items-center space-x-6">
+    <nav className="hidden lg:flex flex-row items-center space-x-6">
       {MENUiTEMS.map((item, idx) => (
         <DesktopMenuItem key={idx} item={item} />
       ))}
