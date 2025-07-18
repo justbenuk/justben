@@ -61,12 +61,14 @@ export default function HomeWork() {
           />
           <Link
             href={"/"}
-            className="absolute top-5 right-5 bg-white z-100 rounded-full p-2"
+            className="absolute top-5 right-5 bg-yellow-200 z-100 rounded-full p-2"
           >
             <FiArrowUpRight className="size-5 font-semibold" />
           </Link>
           <div className="absolute bottom-0 px-2 py-1 flex items-end bg-black/70 h-full w-full">
-            <h2 className="text-xl font-bold mb-2 text-white">{item.title}</h2>
+            <h2 className="text-xl font-bold mb-2 text-yellow-200">
+              {item.title}
+            </h2>
           </div>
         </div>
       ))}
